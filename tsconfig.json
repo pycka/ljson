@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "strict": true,
+    "esModuleInterop": true,
+    "target":"esnext",
+    "module": "CommonJS",
+    "moduleResolution": "node"
+  },
+}

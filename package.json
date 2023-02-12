@@ -1,0 +1,22 @@
+{
+  "name": "ljson",
+  "version": "0.0.1",
+  "description": "Interpreter of Lisp-inspired scripts written in JSON format",
+  "author": "Radek Pycka",
+  "license": "ISC",
+  "main": "lib/interpreter.js",
+  "files": [
+    "lib/*"
+  ],
+  "scripts": {
+    "test": "mocha --require ts-node/register --extension .spec.ts src"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.13.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
